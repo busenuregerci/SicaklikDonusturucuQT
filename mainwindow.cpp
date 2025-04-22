@@ -48,7 +48,7 @@ void MainWindow::on_pushButtonCtoF_clicked()
     {
         countdown = 3;
         ui->labelSonuc->setText("Geçersiz bir sayı girdiniz! (3)");
-        timer->start(1000); // 1 saniyede bir updateWarningLabel çağrılır
+        timer->start(1000); // 1 saniyede bir update çağrılır
     }
     ui->textEdit->setPlainText("");
 }
@@ -68,7 +68,7 @@ void MainWindow::on_pushButtonFtoC_clicked()
     {
         countdown = 3;
         ui->labelSonuc->setText("Geçersiz bir sayı girdiniz! (3)");
-        timer->start(1000); // 1 saniyede bir updateWarningLabel çağrılır
+        timer->start(1000); // 1 saniyede bir update çağrılır
     }
     ui->textEdit->setPlainText("");
 }
